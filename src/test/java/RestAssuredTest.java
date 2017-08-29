@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.hamcrest.Matchers.*;
 
 
-public class HelloWorldRestAssured {
+public class RestAssuredTest {
 
     private String basePath = "https://us.api.battle.net/wow";
     private String apiKey = "";
