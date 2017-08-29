@@ -8,7 +8,8 @@ import static org.hamcrest.Matchers.*;
 public class HelloWorldRestAssured {
 
     private String basePath = "https://us.api.battle.net/wow";
-    private String apiKey = "9jgj6gnfgr7wjgn6w5db8vpfpatam2uy";
+    private String apiKey = "";
+//    add your own api key
 
     @Test
     public void HappyPathStatusCode200() {
